@@ -6,11 +6,11 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "solid-js": "^1.7.12",
-    "solid-meta": "^0.28.1",
-    "solid-utils": "^0.8.1"
+    "@vanilla-extract/css": "^1.13.0",
+    "solid-js": "^1.7.12"
   },
   "devDependencies": {
+    "@vanilla-extract/vite-plugin": "^3.9.0",
     "vite": "^4.4.11",
     "vite-plugin-solid": "^2.7.0"
   }

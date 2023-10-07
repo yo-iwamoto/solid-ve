@@ -1,10 +1,10 @@
 import { defineConfig } from 'vite';
 import solid from 'vite-plugin-solid';
+import { vanillaExtractPlugin } from '@vanilla-extract/vite-plugin';
 
 export default defineConfig({
-  plugins: [solid()],
+  plugins: [solid(), vanillaExtractPlugin()],
   server: {
     open: true,
-    port: 5000,
   },
 });

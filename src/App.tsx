@@ -1,3 +1,9 @@
+import { styles } from './App.css';
+
 export function App() {
-  return <h1>Hello Solid.js</h1>;
+  return (
+    <main class={styles.root}>
+      <h1 class={styles.heading}>Hello Solid.js🍦</h1>
+    </main>
+  );
 }
